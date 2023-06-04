@@ -14,6 +14,8 @@
     <style>
         body{
             background-color: rgb(222, 222, 222);
+            padding-top: 20px;
+            padding-bottom: 20px;
         }
         .container{
             max-width: 600px;
@@ -22,6 +24,17 @@
             border-left: 1px solid rgb(182, 182, 182);
             border-right: 1px solid rgb(181, 181, 181);
             background-color: white;
+        }
+        .visiteSite{
+            background-color: transparent !important;
+            text-align: center;
+            padding-bottom: 20px;
+            border: none;
+        }
+        .visiteSite a{
+            background-color: #1d50a0;
+            color: white;
+            border-color: transparent;
         }
         p{
             text-align: justify;
@@ -72,9 +85,9 @@
         .venue .btn:hover{
             background-color: orange;
         }
-        .socilaLinks{
+        /* .socilaLinks{
             border-bottom: 2px solid orange;
-        }
+        } */
         .socilaLinks ul{
             padding: 0;
             list-style: none;
@@ -98,10 +111,6 @@
         .socilaLinks ul li  .fa-youtube{
             color: #e4405f;
         }
-        footer .container{
-            border: none;
-            background-color: transparent !important;
-        }
         footer ul{
             margin: 0;
             padding: 0;
@@ -113,6 +122,12 @@
     </style>
   </head>
   <body>
+    <!-- site links -->
+    <div class="container visiteSite">
+        <a href="https://www.shabujglobal.com/" class="btn sucess">Visite Now</a>
+    </div>
+
+    <!-- banner -->
     <div class="container">
         <img src="./emailbanner2.jpg" alt="">
     </div>
@@ -187,7 +202,7 @@
                     <li>Bangladesh</li>
                 </ul>
             </b>
-            <p class="text-center mb-0">update your preferences or unsubscribe from this list</p>
+            <p class="text-center mb-0">update your preferences or <a href="#">unsubscribe</a> from this list</p>
         </div>
     </footer>
     
