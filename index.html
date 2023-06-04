@@ -12,8 +12,16 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <style>
+        body{
+            background-color: rgb(222, 222, 222);
+        }
         .container{
             max-width: 600px;
+            padding-left: 0;
+            padding-right: 0;
+            border-left: 1px solid rgb(182, 182, 182);
+            border-right: 1px solid rgb(181, 181, 181);
+            background-color: white;
         }
         p{
             text-align: justify;
@@ -64,6 +72,9 @@
         .venue .btn:hover{
             background-color: orange;
         }
+        .socilaLinks{
+            border-bottom: 2px solid orange;
+        }
         .socilaLinks ul{
             padding: 0;
             list-style: none;
@@ -85,6 +96,18 @@
         }
         .socilaLinks ul li .fa-square-instagram{
             color: #e4405f;
+        }
+        footer .container{
+            border: none;
+            background-color: transparent !important;
+        }
+        footer ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        footer li:not(:last-child){
+            margin-bottom: 10px;
         }
     </style>
   </head>
@@ -113,7 +136,7 @@
     <div class="container">
         <div class="p-4">
             <div class="card p-3 m-0 text-center venue">
-                <h3 class="mb-4">Thanking To Study In <span>CANADA?</span></h3>
+                <h3 class="mb-4">Biggest Education <span>Expo 2023.</span></h3>
                 <p class="text-center mb-2"><b>Venue: </b>Hotel Sarina</p>
                 <p class="text-center mb-2"><b>Time: </b>10 AM</p>
                 <p class="text-center mb-2"><b>Location: </b>Plot 27, Road 17, Banani C/A, Dhaka 1213</p>
@@ -143,6 +166,27 @@
             </ul>
         </div>
     </div>
+
+    <footer>
+        <div class="container py-5 px-4 text-center">
+            <p class="text-center mb-3">
+                Copyright © 2023 International Admission Service, All rights reserved.
+                You are receiving this email because you opted in via our website.
+            </p>
+            <b>
+                <ul>
+                    <li>Our mailing address is:</li>
+                    <li>
+                        Hotel Sarina
+                    </li>
+                    <li>Plot 27, Road 17, Banani C/A</li>
+                    <li>Dhaka 1213</li>
+                    <li>Bangladesh</li>
+                </ul>
+            </b>
+            <p class="text-center mb-0">update your preferences or unsubscribe from this list</p>
+        </div>
+    </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
